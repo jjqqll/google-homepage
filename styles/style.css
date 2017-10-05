@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+}
+
+
+li {
+	float: right;
+	color: gray;
+	width: 5%;
+}
+
+li img {
+	margin: -5px 6px;
+	width: 25px;
+	height: 25px;
+}
+
+.nav{
+	list-style-type: none;	
+	margin: 10%, 10px, 100%, 10px;
+	padding: 0, 10px, 100%, 10px;
+
+}
+
+
+#signin {
+	background-color: lightblue;
+	height: 20px;
+	line-height: 1.3;
+	text-align: center;
+	color: white;
+}
+
+#nav, li:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	position: relative;
+	left: 10%;
+	right: 20%;
+	margin: 0 30%;
+	padding-top: 10%;
+	
+}
+
+.search {
+	position: relative;
+	left: 25%;
+	right: 10%;
+	border-radius: 0;
+	width: 598px;
+	height: 38px;
+	box-shadow: 2px 2px 5px 5px;
+}
+
+.click {
+	position: relative;
+	left: 40%;
+	border-radius: 0;
+	height: 38px;
+	width: 130px;
+	box-shadow: 1px 1px 1px 1px;
+	margin: 0 10px;
+}
+
+.new, .p1, #new {
+	display: inline;	
+	position: relative;
+	left: 15%;
+	letter-spacing: 0.06em;	
+}
+
+.p1 {
+	margin: 0 auto;
+	width: 60%;
+	padding: 20px;
+	color: red;
+	letter-spacing: 0.06em;
+}
+
+.footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background-color: lightgray;
+	height: 45px;
+	line-height: 25px;
+	padding: 0;
+}
+
+.f-right {
+	
+	list-style-type: none;
+	float: right;
+	margin-right: 2%;
+	width: 950px;
+
+		
+}
+
+.f-left {
+	
+	list-style-type: none;
+	
+	margin-left: -25%;
+	
+}
+
